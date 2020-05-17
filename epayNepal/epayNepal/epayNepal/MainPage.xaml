@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="epayNepal.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackLayout
+        Margin="20"
+        HorizontalOptions="CenterAndExpand"
+        VerticalOptions="StartAndExpand">
+        <!--  Place new controls here  -->
+        <Label Margin="0,0,0,10" Text="Click below to pay via Esewa" />
+        <Button
+            Padding="25,5,25,5"
+            BackgroundColor="#42b983"
+            Clicked="Button_Clicked"
+            CornerRadius="10"
+            Text="Pay Esewa"
+            TextColor="White" />
+
+
+        <!--  Place new controls here  -->
+        <Label Margin="0,20,0,10" Text="Click below to pay via IME PAY" />
+        <Button
+            Padding="25,5,25,5"
+            BackgroundColor="#ec1f27"
+            Clicked="Button_Clicked_2"
+            CornerRadius="10"
+            Text="Pay IME PAY"
+            TextColor="White" />
+
+        <!--  Place new controls here  -->
+        <Label Margin="0,20,0,10" Text="Click below to pay via Khalti" />
+        <Button
+            Padding="25,5,25,5"
+            BackgroundColor="#56328c"
+            Clicked="Button_Clicked_1"
+            CornerRadius="10"
+            Text="Pay Khalti"
+            TextColor="White" />
+    </StackLayout>
+
+</ContentPage>
