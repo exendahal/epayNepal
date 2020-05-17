@@ -7,6 +7,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Android.Content;
+using Com.Esewa.Android.Sdk.Payment;
 
 namespace epayNepal.Droid
 {
@@ -39,6 +40,7 @@ namespace epayNepal.Droid
 
             if (resposeCode == "Ok")
             {
+                String message = data.GetStringExtra(ESewaPayment.ExtraResultMessage);
                 Toast.MakeText(Application.Context, "SUCCESSFUL PAYMENT", ToastLength.Long).Show();
                 Xamarin.Forms.Application.Current.MainPage.Navigation.PushModalAsync(new Page1());
             }
