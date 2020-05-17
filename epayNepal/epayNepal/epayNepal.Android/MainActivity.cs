@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Content;
 
 namespace epayNepal.Droid
 {
@@ -28,6 +29,28 @@ namespace epayNepal.Droid
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
+
+        protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+            string resposeCode = resultCode.ToString();
+
+
+            if (resposeCode == "Ok")
+            {
+                Toast.MakeText(Application.Context, "SUCCESSFUL PAYMENT", ToastLength.Long).Show();
+                Xamarin.Forms.Application.Current.MainPage.Navigation.PushModalAsync(new Page1());
+            }
+            else if (resposeCode == "Canceled")
+            {
+                Toast.MakeText(Application.Context, "Canceled By User", ToastLength.Long).Show();
+
+            }
+            else
+            {
+                Toast.MakeText(Application.Context, "Payment Failed", ToastLength.Long).Show();
+            }
         }
     }
 }
