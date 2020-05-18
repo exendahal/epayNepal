@@ -10,7 +10,7 @@ https://docs.microsoft.com/en-us/xamarin/xamarin-forms/
 3) Khalti: https://docs.khalti.com/checkout/android/
 
 ## Available Platforms
-Xamarin Android
+Xamarin Android</br>
 Xamarin IOS (Coming soon)
 
 ## Screenshots
