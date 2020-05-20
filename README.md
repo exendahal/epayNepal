@@ -22,4 +22,3 @@ Xamarin IOS (Coming soon)
 
 ## Contributor
 1) Rabin Roirala - http://rabinkoirala.com.np
-2) Santosh Dahal - http://dahalsantosh.com.np
