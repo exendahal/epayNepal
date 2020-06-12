@@ -12,7 +12,7 @@ namespace epayNepal.Droid
     public class paymentEsewa : MainActivity, MakePaymentesewa
     {
         Context currentContext = Android.App.Application.Context;
-        System.String CONFIG_ENVIRONMENT = "test";
+        System.String CONFIG_ENVIRONMENT = ESewaConfiguration.EnvironmentTest;
         int REQUEST_CODE_PAYMENT = 1;
         private ESewaConfiguration eSewaConfiguration;
         System.String MERCHANT_ID = "JB0BBQ4aD0UqIThFJwAKBgAXEUkEGQUBBAwdOgABHD4DChwUAB0R";
