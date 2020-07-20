@@ -13,6 +13,11 @@ https://docs.microsoft.com/en-us/xamarin/xamarin-forms/
 Xamarin Android</br>
 Xamarin IOS (Coming soon)
 
+## Binding Links
+Esewa: https://github.com/exendahal/esewaSDK </br>
+Khalti: https://github.com/exendahal/KhaltiSDK </br>
+IME Pay: https://github.com/exendahal/ImePaySDK
+
 ## Screenshots
 <img  src="Screenshots/home.png" width="250" height="450"></br>
 <img  src="Screenshots/esewa.png" width="250" height="450"> &nbsp;&nbsp;&nbsp; <img src="Screenshots/imepay.png" width="250" height="450"> &nbsp;&nbsp;&nbsp; <img src="Screenshots/khalti.png" width="250" height="450"> <br>
