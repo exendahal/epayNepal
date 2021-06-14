@@ -11,7 +11,8 @@ https://docs.microsoft.com/en-us/xamarin/xamarin-forms/
 
 ## Available Platforms
 Xamarin Android</br>
-Xamarin IOS (Coming soon)
+Xamarin IOS (Coming soon) 
+If you are willing to contribute, don't ask just do it. :)
 
 ## Binding Links
 Esewa: https://github.com/exendahal/esewaSDK </br>
@@ -27,3 +28,5 @@ IME Pay: https://github.com/exendahal/ImePaySDK
 
 ## Contributor
 1) Rabin Roirala - http://rabinkoirala.com.np
+
+In case of any need, write me at contact@dahalsantosh.com.np 
