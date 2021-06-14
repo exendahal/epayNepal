@@ -26,7 +26,4 @@ IME Pay: https://github.com/exendahal/ImePaySDK
 ## Preview
 <img  src="Screenshots/preview.gif" width="250" height="450"></br>
 
-## Contributor
-1) Rabin Roirala - http://rabinkoirala.com.np
-
 In case of any need, write me at contact@dahalsantosh.com.np 
