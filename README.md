@@ -14,7 +14,7 @@ Xamarin Android</br>
 Xamarin IOS (Coming soon) 
 If you are willing to contribute, don't ask just do it. :)
 
-## Binding Links
+## Individual Project Binding
 Esewa: https://github.com/exendahal/esewaSDK </br>
 Khalti: https://github.com/exendahal/KhaltiSDK </br>
 IME Pay: https://github.com/exendahal/ImePaySDK
