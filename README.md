@@ -1,5 +1,5 @@
 # epayNepal
-Bindings for major Payment gateways of Nepal with Xamarin Forms (esewa, IME Pay and Khalti)</br>
+Native Bindings for major Payment gateways of Nepal with Xamarin Forms (esewa, IME Pay and Khalti)</br>
 
 ## More about Platform
 https://docs.microsoft.com/en-us/xamarin/xamarin-forms/
