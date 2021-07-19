@@ -12,7 +12,7 @@ https://docs.microsoft.com/en-us/xamarin/xamarin-forms/
 
 ## Xamarin implementation 
 * Xamarin Android : Available</br> 
-* Xamarin IOS : Coming soon
+* Xamarin IOS : Coming soon </br>
 If you are willing to contribute, don't ask just do it. :)
 
 ## Project Binding source code
